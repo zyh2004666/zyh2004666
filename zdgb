@@ -1,0 +1,6 @@
+@ECHO OFF
+taskkill /im …… /F /T
+start file:\\\……
+TIMEOUT /T  5
+taskkill /im Microsoft.Photos.exe /F /T
+exit
